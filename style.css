@@ -1,0 +1,21 @@
+body {
+    background-image: radial-gradient(circle ,white,#D37BBB);
+    text-align: justify;
+}
+h1 {
+    background-image: radial-gradient(to right, white,black);
+    color: #8A1A6B;
+    text-align: center;
+    font-family: cursive;
+}
+h2 {
+    color: #A43485;
+    text-align: center;
+}
+p {
+    color: #8A1A6B;
+    background-color: #E9AED9;
+}
+div {
+    text-align: center;
+}
