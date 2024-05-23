@@ -14,8 +14,12 @@ h2 {
 p {
     color: #8A1A6B;
     background-color: #EAADD9;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 div {
     text-align: center;
+}
+#like{
+    margin-left: 70%;
+    width: 5px; 
+    height: 70px;
 }
