@@ -7,8 +7,7 @@
 }
 
 body {
-    height: 100%;
-    width: 100%;
+    position: relative;
     background-image: linear-gradient(to bottom, rgba(137, 43, 226,0.3), rgba(76, 0, 130));
 }
 
@@ -79,12 +78,12 @@ article {
     margin: 10px 20px;
 }
 
-footer > div > a {
+footer > div > a#prev {
     display: inline-block;
-    width: 100px;
+    width: 150px;
     padding: 10px;
     margin-top: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     text-align: center;
     
     background-color: rgba(137, 43, 226, 0.8);
@@ -94,10 +93,27 @@ footer > div > a {
     text-decoration: none;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
     text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.8);
+
+    translate: calc(50vw - 170px);
 }
 
-footer > div > a#prev {
-    margin-left: 25%;
+footer > div > a#next {
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 200px;
+    text-align: center;
+    
+    background-color: rgba(137, 43, 226, 0.8);
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    text-decoration: none;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.8);
+
+    translate: calc(50vw - 160px);
 }
 
 footer > div > a:hover {
